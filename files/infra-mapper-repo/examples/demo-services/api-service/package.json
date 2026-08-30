@@ -1,5 +1,0 @@
-{
-  "name": "api-service",
-  "description": "REST API that serves product catalog data and handles checkout requests.",
-  "main": "dist/server.js"
-}

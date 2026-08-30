@@ -1,4 +1,0 @@
-{
-  "name": "notify-lambda",
-  "description": "Sends order confirmation emails via SES when triggered by the Notify API."
-}

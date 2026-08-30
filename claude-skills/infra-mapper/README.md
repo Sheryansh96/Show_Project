@@ -5,12 +5,11 @@ infrastructure diagram from an AWS CDK (TypeScript) repo — entry points →
 compute → data/messaging, with connector lines drawn only from `grant*()`/
 env-var/API-integration wiring actually found in the source.
 
-This folder is self-contained: `SKILL.md` (the instructions Claude reads),
-`scripts/` (the `infra_mapper` Python package + CLI, zero external
-dependencies), and `examples/` (a synthetic CDK app for sanity-checking).
-The underlying tool itself — with its own README, more detail on what it
-parses, and known limitations — lives at
-[`files/infra-mapper-repo`](../../files/infra-mapper-repo) in this repo.
+This folder is self-contained and is the only copy of the tool in this repo:
+`SKILL.md` (the instructions Claude reads — also the best reference for what
+it parses and its known limitations), `scripts/` (the `infra_mapper` Python
+package + CLI, zero external dependencies), and `examples/` (a synthetic CDK
+app for sanity-checking).
 
 ## Install on a machine
 
